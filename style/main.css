@@ -44,6 +44,7 @@ header nav a:hover {
     url("/img/intothewildcapa.jpg");
   height: 400px;
   background-size: cover;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,7 +53,7 @@ header nav a:hover {
 
 .filme-principal .descricao {
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .titulo {
   margin-top: 15%;
@@ -87,7 +88,8 @@ header nav a:hover {
   height: 100%;
   width: 100%;
   display: block;
+  cursor: pointer;
 }
-.carrossel.filmes {
-  margin-top: 15px;
+.carrosel-filmes {
+  margin-top: 5px;
 }
